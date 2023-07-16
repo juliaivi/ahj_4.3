@@ -1,0 +1,21 @@
+mir.png
+  source: https://icons8.ru/icon/set/mir/color
+
+visa.png
+  source: https://icons8.ru/icon/set/visa/color
+
+mastercard.png
+source: https://icons8.ru/icon/set/mastercard/color
+
+jcb.png
+source: https://icons8.ru/icon/set/jcb/color
+
+
+discover.png
+source: https://icons8.ru/icon/set/discover/color
+
+american-express.png
+source: https://icons8.ru/icon/set/american-express/color
+
+diners.png
+source: https://icons8.ru/icon/set/diners/color

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validator</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Chek your credit card number</h3>
+        <ul class="cards">
+            <li>
+                <span class="card visa" title="Visa"></span>
+            </li>
+            <li>
+                <span class="card jcb" title="JCB"></span>
+            </li>
+            <li>
+                <span class="card discover" title="discover"></span>
+            </li>
+            <li>
+                <span class="card americanExpress" title="American-Express"></span>
+            </li>
+            <li>
+                <span class="card mastercard" title="Mastercard"></span>
+            </li>
+            <li>
+                <span class="card mir" title="MIR"></span>
+            </li>
+            <li>
+                <span class="card diners" title="diners"></span>
+            </li>
+        </ul>
+        <form class="validate-form">
+            <input class="input-card-number" type="text" placeholder="Введите номер карты" required>
+            <button class="validate-button">Click</button>
+        </form>
+        <p class="result" data-id="result"></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+	background: #333232;
+	font-size: 17px, sans-s;
+    color: #f3f3f3;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+}
+
+.container {
+	width: 500px;
+	display: block;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.card { 
+  position: absolute;
+  min-width: 48px;
+  min-height: 48px;
+  margin: 15px 0;
+}
+
+.visa {
+  background-image: url(../images/visa.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.jcb {
+  background-image: url(../images/jcb.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.discover {
+  background-image: url(../images/discover.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.americanExpress {
+  background-image: url(../images/american-express.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.mastercard {
+  background-image: url(../images/mastercard.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.mir {
+  background-image: url(../images/mir.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.diners {
+  background-image: url(../images/diners.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.validate-form {
+  position: relative;
+  top: 76px;
+}
+
+.container-message {
+	width: 200px;
+	height: 50px;
+}
+
+.input-card-number {
+	width: 200px;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+
+.validate-button {
+	width: 100px;
+	height: 30px;
+	margin: 20px;
+	color: #f3f3f3;
+	border: 1px solid;
+	border-radius: 3px;
+	background-color: rgb(107, 107, 107);
+	cursor: pointer;
+}
+
+.validate-button:hover {
+    background-color: rgb(23 22 22);
+}
+
+
+.result {
+    position: relative;
+    top: 110px;
+}
+
+
+.active {
+    width: 66px;
+    height: 66px;
+}
+
+
+.notActive {
+    opacity: 0.3;
+}
+
+.valid {
+  background-color: rgba(86 248 119 / 50%);
+}
+
+.notValid {
+  background-color: rgba(248 86 91 / 50%);
+}
